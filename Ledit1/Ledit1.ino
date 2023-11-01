@@ -1,7 +1,8 @@
-// the setup function runs once when you press reset or power the board
+//ledien vilkutusta
+
 void setup() {
   // asetetaan pinnit outputeiksi.
-  pinMode(9, OUTPUT);
+  pinMode(10, OUTPUT);
   pinMode(11, OUTPUT);
   pinMode(13, OUTPUT);
 }
@@ -9,9 +10,9 @@ void setup() {
 // vilkutellaan ledejä
 void loop() 
 {
-  digitalWrite(9, HIGH);   // 
+  digitalWrite(10, HIGH);   // 
   delay(300);                       // 
-  digitalWrite(9, LOW);    // 
+  digitalWrite(10, LOW);    // 
   delay(300); //
    
   digitalWrite(11, HIGH);   // 
